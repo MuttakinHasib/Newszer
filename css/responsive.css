@@ -1,0 +1,86 @@
+@media screen and (max-width: 1200px) {
+  .testimonial .person-info {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .navbar-logo {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .main-menu {
+    margin-left: 45px !important;
+  }
+  .navbar-nav .nav-item .nav-link {
+    padding: 15px 0 !important;
+  }
+  .what-logo {
+    right: 35% !important;
+  }
+  .whatis {
+    margin: 10px 0 20px 0 !important;
+  }
+  .form-text {
+    display: none;
+  }
+  .ads-land .land-content {
+    margin-top: 10px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .phone {
+    margin: auto !important;
+  }
+  .content-left {
+    display: none !important;
+  }
+  .phone-box h2 {
+    display: block !important;
+  }
+  .phone-box .download {
+    display: block !important;
+  }
+  .hero .phone {
+    width: 201px !important;
+    height: 367px !important;
+  }
+  .hero .phone .video {
+    width: 151px !important;
+    height: 273px !important;
+  }
+  .ads-land .land-content h1 {
+    font-size: 35px !important;
+  }
+  .ads-land .land-content p {
+    font-size: 20px !important;
+  }
+  .plan-pricing .title-content h1 {
+    font-size: 35px !important;
+  }
+  .plan-pricing .title-content p {
+    font-size: 18px !important;
+  }
+  .testimonial .title h1 {
+    font-size: 35px !important;
+  }
+  .testimonial .title p {
+    font-size: 18px !important;
+  }
+  .testimonial .tm-text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .what-logo {
+    right: 20% !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
