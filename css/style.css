@@ -42,12 +42,12 @@ header nav .main-menu {
 
 header nav .navbar-logo {
   position: absolute !important;
-  top: 2px;
+  top: 22px;
   left: -40%;
 }
 
 header nav .navbar-logo img {
-  height: 85px !important;
+  height: 70px !important;
 }
 
 header nav .navbar-nav {
@@ -79,7 +79,6 @@ header nav .whatis {
 .hero {
   position: relative;
   width: 100%;
-  height: 100vh;
   background: #fff;
   overflow: hidden;
 }
@@ -355,8 +354,8 @@ header nav .whatis {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 290px;
-  height: 552px;
+  width: 285px;
+  height: 530px;
   display: block;
   margin: auto;
   margin-top: -20%;
@@ -777,8 +776,12 @@ header nav .whatis {
 
 /**** Footer Area ****/
 footer {
-  padding: 54px 0;
+  padding: 30px 0;
   background: #2C2C35;
+}
+
+footer .col {
+  margin-bottom: 1rem !important;
 }
 
 footer ul {

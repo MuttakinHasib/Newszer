@@ -22,7 +22,7 @@
   }
   .phone-slide,
   .phone-feature {
-    width: 201px !important;
+    width: 195px !important;
     height: 367px !important;
   }
   .slide-item,
@@ -67,8 +67,8 @@
     display: block !important;
   }
   .hero .phone {
-    width: 201px !important;
-    height: 367px !important;
+    width: 195px !important;
+    height: 364px !important;
   }
   .hero .phone .video {
     width: 151px !important;
