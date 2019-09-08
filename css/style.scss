@@ -365,15 +365,16 @@ header {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        width: 221px;
-        height: 387px;
+        width: 290px;
+        height: 552px;
         display: block;
         margin: auto;
+        margin-top:-20%;
 
         .slide-item {
             position: absolute;
-            height: 300px;
-            width: 171px;
+            height: 400px;
+            width: 216px;
             display: block;
             margin: auto;
             left: 0;
@@ -418,7 +419,7 @@ header {
                     left: 0;
                     width: 100px;
                     height: 2px;
-                    background: #f36;
+                    background: #F52828;
                     content: '';
                 }
             }
@@ -448,7 +449,7 @@ header {
                 height: 75px;
                 line-height: 75px;
                 overflow: hidden;
-                background: #f36;
+                background: #F52828;
                 text-align: center;
                 border-radius: 10px;
 
@@ -479,7 +480,7 @@ header {
         width: 310px;
         height: 572px;
         display: block;
-        margin: auto;
+        margin-left: auto;
 
         .phone-card {
             position: absolute;

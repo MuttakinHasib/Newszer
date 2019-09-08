@@ -17,6 +17,22 @@
         margin-top: 1rem;
     }
 
+    .phone-feature {
+        margin: auto !important;
+    }
+
+    .phone-slide,
+    .phone-feature {
+        width: 201px !important;
+        height: 367px !important;
+    }
+
+    .slide-item,
+    .phone-card {
+        width: 151px !important;
+        height: 273px !important;
+    }
+
     .main-menu {
 
         margin-left: 45px !important;
@@ -55,6 +71,10 @@
 @media screen and (max-width:767px) {
     .phone {
         margin: auto !important;
+    }
+
+    .phone-slide {
+        margin-top: auto !important;
     }
 
     .content-left {
