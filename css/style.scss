@@ -49,7 +49,7 @@ header {
 
             img {
 
-                height: 50px !important;
+                height: 60px !important;
             }
         }
 
@@ -68,6 +68,7 @@ header {
             transition: all .1s ease-in-out !important;
             font-size: 14px !important;
             padding: 5px 20px !important;
+            font-weight:500;
 
             &:hover {
                 color: tomato !important;
