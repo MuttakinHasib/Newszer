@@ -13,6 +13,10 @@
 }
 
 @media screen and (max-width:991px) {
+    .windows-logo {
+        margin-top: 1rem;
+    }
+
     .main-menu {
 
         margin-left: 45px !important;
@@ -45,6 +49,7 @@
             margin-top: 10px !important;
         }
     }
+
 }
 
 @media screen and (max-width:767px) {
@@ -119,8 +124,8 @@
     }
 }
 
-@media screen and (max-width:420px){
-    .what-logo{
+@media screen and (max-width:420px) {
+    .what-logo {
         right: 20% !important;
     }
 }

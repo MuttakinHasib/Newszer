@@ -14,6 +14,9 @@
 }
 
 @media screen and (max-width: 991px) {
+  .windows-logo {
+    margin-top: 1rem;
+  }
   .main-menu {
     margin-left: 45px !important;
   }
