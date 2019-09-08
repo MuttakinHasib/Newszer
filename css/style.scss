@@ -44,12 +44,12 @@ header {
 
         .navbar-logo {
             position: absolute !important;
-            top: 22px;
+            top: 10px;
             left: -40%;
 
             img {
 
-                height: 70px !important;
+                height: 50px !important;
             }
         }
 
@@ -67,7 +67,7 @@ header {
             color: #000 !important;
             transition: all .1s ease-in-out !important;
             font-size: 14px !important;
-            padding: 15px 20px !important;
+            padding: 5px 20px !important;
 
             &:hover {
                 color: tomato !important;
