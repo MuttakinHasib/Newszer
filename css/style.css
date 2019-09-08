@@ -335,77 +335,16 @@ header nav .whatis {
   padding: 5.5rem 0;
 }
 
-.feature .feature-list {
-  position: relative;
+.feature .feature-item {
+  margin: 2rem 0;
 }
 
-.feature .feature-list .vertical-line {
-  position: absolute;
-  top: 21px;
-  left: 41px;
-  height: 100%;
-  width: 1px;
-  background: rgba(0, 0, 0, 0.15);
-  bottom: 0;
-  display: block;
-}
-
-.feature .feature-list ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  list-style: none;
-}
-
-.feature .feature-list ul li {
-  margin: 1rem 0;
-}
-
-.feature .feature-list ul li .item-number {
-  position: relative;
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background: #fff;
-}
-
-.feature .feature-list ul li .item-number span {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  display: block;
-  margin: auto;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  line-height: 50px;
-  background: #1188FE;
-  color: #fff;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 400;
-}
-
-.feature .feature-list ul li .feature-item {
-  margin: -4rem 0 0 6rem;
-}
-
-.feature .feature-list ul li .feature-item h4 {
+.feature .feature-item h4 {
   font-size: 35px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
-.feature .feature-list ul li .feature-item p {
+.feature .feature-item p {
   font-weight: 300;
   color: #555;
 }
@@ -416,16 +355,16 @@ header nav .whatis {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 310px;
-  height: 572px;
+  width: 221px;
+  height: 387px;
   display: block;
   margin: auto;
 }
 
 .feature .phone-slide .slide-item {
   position: absolute;
-  height: 420px;
-  width: 236px;
+  height: 300px;
+  width: 171px;
   display: block;
   margin: auto;
   left: 0;
@@ -464,7 +403,7 @@ header nav .whatis {
   left: 0;
   width: 100px;
   height: 2px;
-  background: #1188FE;
+  background: #f36;
   content: '';
 }
 
@@ -496,7 +435,7 @@ header nav .whatis {
   height: 75px;
   line-height: 75px;
   overflow: hidden;
-  background: #1188FE;
+  background: #f36;
   text-align: center;
   border-radius: 10px;
 }
@@ -515,18 +454,38 @@ header nav .whatis {
   font-weight: 300;
 }
 
-.more-feature .feature-demo {
-  width: 100%;
-}
-
-.more-feature .feature-demo .demo-img {
-  width: 300px;
+.more-feature .phone-feature {
+  position: relative;
+  background: url(../img/phone.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 310px;
+  height: 572px;
   display: block;
   margin: auto;
 }
 
-.more-feature .feature-demo .demo-img img {
+.more-feature .phone-feature .phone-card {
+  position: absolute;
+  height: 420px;
+  width: 236px;
+  display: block;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 11px;
+}
+
+.more-feature .phone-feature .phone-card .phone-img {
   width: 100%;
+  height: 100%;
+}
+
+.more-feature .phone-feature .phone-card .phone-img img {
+  width: 100%;
+  height: 100%;
 }
 
 /**======================
